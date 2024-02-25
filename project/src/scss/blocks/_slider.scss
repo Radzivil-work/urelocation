@@ -1,0 +1,14 @@
+.slider {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  &__item-text {
+    margin-top: 20px;
+    text-align: center;
+  }
+}
+
+.none {
+  display: none;
+}

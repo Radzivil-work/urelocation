@@ -1,0 +1,10 @@
+.customers {
+  padding-top: 160px;
+  &__title {
+    max-width: 590px;
+    margin: 0 auto;
+  }
+  &__subtitle {
+    padding-top: 24px;
+  }
+}

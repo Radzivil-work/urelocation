@@ -9,12 +9,8 @@
     color: var(--black-text-color);
   }
   &__subtitle {
-    font-size: 24px;
-    margin: 0 auto;
-    margin-top: 34px;
-    line-height: 38px;
+    margin: 36px auto 60px;
     max-width: 867px;
-    margin-bottom: 60px;
   }
   &__item {
     display: flex;
@@ -23,8 +19,6 @@
     margin-bottom: 35px;
   }
   &__item-title {
-    font-size: 36px;
-    color: var(--black-text-color);
     margin-bottom: 24px;
   }
   &__item-text {
