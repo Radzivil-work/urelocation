@@ -9,7 +9,7 @@
     color: var(--black-text-color);
   }
   &__subtitle {
-    margin: 36px auto 60px;
+    margin: 24px auto 60px;
     max-width: 867px;
   }
   &__item {
@@ -20,6 +20,9 @@
   }
   &__item-title {
     margin-bottom: 24px;
+    color: var(--black-text-color);
+    font-size: 24px;
+    font-weight: 500;
   }
   &__item-text {
     max-width: 500px;

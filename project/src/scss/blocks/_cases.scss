@@ -9,6 +9,10 @@
     display: flex;
     gap: 20px;
   }
+  &__title {
+    max-width: 480px;
+    margin: 0 auto;
+  }
   &__item {
     padding: 40px;
     width: 610px;
