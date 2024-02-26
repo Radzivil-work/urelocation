@@ -1,0 +1,41 @@
+.cases {
+  padding-top: 160px;
+  &__subtitle {
+    max-width: 860px;
+    margin: 36px auto 0;
+  }
+  &__inner {
+    margin-top: 36px;
+    display: flex;
+    gap: 20px;
+  }
+  &__item {
+    padding: 40px;
+    width: 610px;
+    min-height: 470px;
+    background-color: #fff;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+  }
+  &__item-text {
+    font-size: 15px;
+    line-height: 24px;
+    margin-bottom: 16px;
+  }
+  &__item-descr {
+    font-size: 13px;
+    line-height: 20px;
+    margin-bottom: 16px;
+  }
+  &__item-inner {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+  }
+  &__item-price {
+    font-size: 40px;
+    color: var(--black-text-color);
+  }
+}
