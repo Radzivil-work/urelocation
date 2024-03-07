@@ -1,0 +1,20 @@
+.platform {
+  padding-top: 160px;
+  &__subtitle {
+    margin-top: 24px;
+  }
+  &__img {
+    margin-top: 40px;
+  }
+  &__item {
+    background-color: #E7EEFA;
+    padding: 14px 18px;
+    border-radius: 25px;
+  }
+  &__inner {
+    margin-top: 36px;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+}

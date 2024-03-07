@@ -1,0 +1,25 @@
+.html,
+.body {
+  height: 100%;
+}
+.body {
+  font-family: var(--font-family);
+  font-size: 18px;
+  background-color: var(--main-bg-color);
+  color: var(--main-text-color);
+}
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100%;
+}
+.main {
+  flex: 1 1 auto;
+  position: relative;
+}
+
+.container {
+  max-width: var(--container-width);
+  margin: 0 auto;
+  padding: 0 10px;
+}
